@@ -469,10 +469,11 @@ footer a {
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
     }
 
-       .light-box {
+    .light-box {
 /*         display: none; */
 /*         position: fixed; */
 /*         min-width: 100vw; */
+        position: absolute;
         display: flex;
         justify-content:center;
         align-items:center;
@@ -497,6 +498,7 @@ footer a {
         margin-bottom: 1rem;
         margin-left: 95%;
     }
+
     
     .light-main-hero, #modal-close  {
         display: block;
