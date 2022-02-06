@@ -470,9 +470,6 @@ footer a {
     }
 
     .light-box {
-/*         display: none; */
-/*         position: fixed; */
-/*         min-width: 100vw; */
         position: absolute;
         display: flex;
         justify-content:center;
@@ -497,6 +494,10 @@ footer a {
         border: none;
         margin-bottom: 1rem;
         margin-left: 95%;
+    }
+    
+    #modal-close:hover {
+        transform: scale(1.2);
     }
 
     
