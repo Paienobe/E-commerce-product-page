@@ -496,11 +496,6 @@ footer a {
         margin-left: 95%;
     }
     
-    #modal-close:hover {
-        transform: scale(1.2);
-    }
-
-    
     .light-main-hero, #modal-close  {
         display: block;
     } 
