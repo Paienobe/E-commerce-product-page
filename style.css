@@ -470,17 +470,12 @@ footer a {
     }
 
     .light-box {
-/*         display: none; */
-/*         position: fixed; */
-/*         min-width: 100vw; */
-        position: absolute;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        min-height: 100vh;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 10;
-    }
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+  }
 
     .light-hero {
         width: 25%;
