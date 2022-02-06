@@ -469,8 +469,10 @@ footer a {
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
     }
 
-    .light-box {
-        position: absolute;
+       .light-box {
+/*         display: none; */
+/*         position: fixed; */
+/*         min-width: 100vw; */
         display: flex;
         justify-content:center;
         align-items:center;
